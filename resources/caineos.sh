@@ -13,7 +13,7 @@ echo 'apt' package is not recommended for Arch Linux unless you know how to PROP
 sudo pacman -S apt
 sudo pacman -S kitty 
 sudo pacman -S power-profiles-daemon 
-sudo wget https://colacaine.github.io/archcaine/archcaine/misc.zip
+# sudo wget https://colacaine.github.io/archcaine/archcaine/misc.zip
 sudo pacman -S zip 
 sudo pacman -S unzip 
 sudo pacman -S nautilus

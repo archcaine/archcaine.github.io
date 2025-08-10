@@ -1,5 +1,5 @@
 sudo pacman -S wget
-sudo wget https://colaciane.github.io/archcaine/archcaine/archcaine-setup.s
+sudo wget https://colaciane.github.io/ARCH-CAINE/archcaine-setup.sh
 archcaine-setup.sh
 echo Thank you for using ARCH-CAINE :)
 sudo pacman -Syu
@@ -13,12 +13,12 @@ echo 'apt' package is not recommended for Arch Linux unless you know how to PROP
 sudo pacman -S apt
 sudo pacman -S kitty 
 sudo pacman -S power-profiles-daemon 
-sudo wget https://colacaine.github.io/archcaine/archcaine/misc.zip
+# sudo wget https://colacaine.github.io/archcaine/archcaine/misc.zip
 sudo pacman -S zip 
-sudo pacman -S unzip 
+sudo pacman -Scommand:github.copilot.chat.startCopilotDebugCommand unzip 
 sudo pacman -S nautilus
 echo npm is recommended
 sudo pacman -S npm
-sudo pacman -R archaine-setup.sh 
+sudo pacman -R archcaine-setup.sh
 // if didn't already
 exit
