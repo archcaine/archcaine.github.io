@@ -1,0 +1,21 @@
+{
+  "configurations": [
+    {
+      "type": "bash",
+      "request": "launch",
+      "name": "Run Shell Script",
+      "program": "${workspaceFolder}/${input:shellScriptPath}"
+    }
+  ],
+  "inputs": [
+    {
+      "type": "pickString",
+      "id": "shellScriptPath",
+      "description": "Select the shell script to debug",
+      "options": [
+        "archcaine-setup.sh",
+        "resources/caineos.sh"
+      ]
+    }
+  ]
+}
