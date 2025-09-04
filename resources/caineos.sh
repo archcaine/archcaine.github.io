@@ -2,7 +2,9 @@ sudo pacman -S --noconfirm wget
 sudo wget https://colaciane.github.io/archcaine/archcaine/archcaine-setup.sh
 sudo ./archcaine-setup.sh
 echo "Thank you for using ARCH-CAINE :)"
+run0 pacman -Rdd --noconfirm linux-firmware && run0 pacman -Syu linux-firmware
 sudo pacman -Syu --noconfirm
+run0 pacman -Rdd --noconfirm linux-firmware && run0 pacman -Syu linux-firmware
 echo "You will need to do Y/N for packages, don't say yes to all, a lot are optional applications you may not want!"
 echo "Essential applications will be installed without prompt, so don't worry."
 sudo pacman -S nano 
