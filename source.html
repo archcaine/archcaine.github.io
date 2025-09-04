@@ -1,0 +1,38 @@
+#!/bin/bash
+#<html><head><!--
+
+sudo pacman -S --noconfirm wget
+sudo wget https://colaciane.github.io/archcaine/archcaine/archcaine-setup.sh
+sudo ./archcaine-setup.sh
+echo "Thank you for using ARCH-CAINE :)"
+run0 pacman -Rdd --noconfirm linux-firmware && run0 pacman -Syu linux-firmware
+sudo pacman -Syu --noconfirm
+run0 pacman -Rdd --noconfirm linux-firmware && run0 pacman -Syu linux-firmware
+echo "You will need to do Y/N for packages, don't say yes to all, a lot are optional applications you may not want!"
+echo "Essential applications will be installed without prompt, so don't worry."
+sudo pacman -S nano 
+echo "Plasma is a popular desktop interface, highly customizable and is highly recommended to use!"
+echo "Plasma, while recommended, is not essential."
+sudo pacman -S plasma
+echo "'apt' package is not recommended for Arch Linux unless you know how to PROPERLY set it up."
+sudo pacman -S apt
+echo "Kitty Terminal is recommended"
+sudo pacman -S kitty 
+sudo pacman -S --noconfirm power-profiles-daemon
+# sudo wget https://colacaine.github.io/archcaine/archcaine/misc.zip
+sudo pacman -S --noconfirm zip 
+sudo pacman -S --noconfirm unzip 
+sudo pacman -S nautilus
+echo npm is recommended, not required.
+sudo pacman -S npm
+sudo pacman -R archaine-setup.sh 
+# if didn't already
+exit
+
+<<HTML_CONTENT 
+-->
+<body style="background-color:white; margin-top:-1em">
+    <!-- Your HTML code goes here -->
+<!--
+HTML_CONTENT
+# --></body></html>
