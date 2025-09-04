@@ -20,5 +20,5 @@ sudo pacman -S nautilus
 echo npm is recommended
 sudo pacman -S npm
 sudo pacman -R archaine-setup.sh 
-// if didn't already
+# if didn't already
 exit
