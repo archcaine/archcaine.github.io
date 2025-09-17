@@ -1,4 +1,4 @@
-<a src="https://archcaine.github.io">archcaine.github.io/</a>
+<a src="https://archcaine.github.io">archcaine.github.io</a>
 
 Website, + guide.
 
