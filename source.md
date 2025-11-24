@@ -1,4 +1,4 @@
-<head><title>Source</title></head>
+```bash
 #!/bin/bash
 # Script Title: Arch Linux KDE Plasma & Utility Installer
 # Description: Installs SDDM, KDE Plasma (X11/Wayland), and a comprehensive set of essential
@@ -159,3 +159,4 @@ else
 fi
 
 # --- End of Main Execution ---
+```
